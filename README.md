@@ -2,6 +2,7 @@
 A Java-based Personality Detection System using the Tribuo ML framework. Trains and compares Logistic Regression, Random Forest, and XGBoost models to predict personality traits from behavioral data, deploying the best-performing model for accurate predictions.
 
 📦 Resources Used
+------------------
 
 Java: Version 17 was used to develop and run the project, leveraging modern Java features and long-term support stability.
 
@@ -10,6 +11,7 @@ IDE / Platform: The project is developed using Eclipse IDE, a popular Java devel
 Tribuo: Oracle’s open-source machine learning library for Java, compatible with Java 8+, used for loading datasets, model building, evaluation, and serialization.
 
 📊 Dataset
+-----------
 
 Source: [Extrovert vs. Introvert Behavior Data (Kaggle)](https://www.kaggle.com/datasets/rakeshkapilavai/extrovert-vs-introvert-behavior-data)
 
@@ -33,6 +35,7 @@ Post_frequency (numeric)
 Class variable: Personality with values INTROVERT or EXTROVERT (target for classification)
 
 🏋️‍♂️ Training Algorithms
+-----------------------
 
 Logistic Regression:
 Binary classification using a linear model trained via stochastic gradient descent.
@@ -44,12 +47,14 @@ XGBoost:
 Gradient boosted trees optimized through hyperparameter tuning (rounds, max depth, learning rate).
 
 🚀 Results and Application
+---------------------------
 
 The Random Forest model was selected as the best model with highest accuracy (~92.5%).
 
 This trained Random Forest model was saved, loaded, and used to build a real-time personality detection system that predicts personality from new input feature values.
 
 🖥️ Sample Training Output
+--------------------------
 
 Logistic Regression trained with Stochastic Gradient Descent (SGD)
 ------------------------------------------------------------------
@@ -61,9 +66,10 @@ https://github.com/vinayak181018/Personality-Detection-System-Using-Machine-Lear
 
 XGBoost (Hyperparameter Search)
 -------------------------------
-
+https://github.com/vinayak181018/Personality-Detection-System-Using-Machine-Learning-Algorithms-LR-RF-and-XGBoost-in-Java-Tribuo-/blob/5bb84f35bdfdc9bb107b6bd49a5e356c4e11be86/PD_trained_model_images/RF_trained_output.png
 
 🛠️ Build and Dependencies
+--------------------------
 
 This project uses Maven as the build and dependency management tool.
 
