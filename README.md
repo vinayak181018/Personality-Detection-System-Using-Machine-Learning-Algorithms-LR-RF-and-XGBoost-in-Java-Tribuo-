@@ -1,6 +1,7 @@
 # Personality-Detection-System-Using-Machine-Learning-Algorithms-LR with SGD-RF-and-XGBoost-in-Java-Tribuo
 A Java-based Personality Detection System using the Tribuo ML framework. Trains and compares Logistic Regression, Random Forest, and XGBoost models to predict personality traits from behavioral data, deploying the best-performing model for accurate predictions.
 
+
 📦 Resources Used
 ------------------
 
@@ -9,6 +10,7 @@ Java: Version 17 was used to develop and run the project, leveraging modern Java
 IDE / Platform: The project is developed using Eclipse IDE, a popular Java development environment that integrates well with Maven and provides powerful debugging and editing features.
 
 Tribuo: Oracle’s open-source machine learning library for Java, compatible with Java 8+, used for loading datasets, model building, evaluation, and serialization.
+
 
 📊 Dataset
 -----------
@@ -34,6 +36,7 @@ Post_frequency (numeric)
 
 Class variable: Personality with values INTROVERT or EXTROVERT (target for classification)
 
+
 🏋️‍♂️ Training Algorithms
 -----------------------
 
@@ -46,11 +49,13 @@ An ensemble of decision trees trained with bagging and fully weighted voting, of
 XGBoost:
 Gradient boosted trees optimized through hyperparameter tuning (rounds, max depth, learning rate).
 
+
 🚀 Results and Application
 ---------------------------
 The Random Forest model was selected as the best model with highest accuracy (~92.5%).
 
 This trained Random Forest model was saved, loaded, and used to build a real-time personality detection system that predicts personality from new input feature values.
+
 
 🖥️ Sample Training Output
 --------------------------
@@ -79,7 +84,9 @@ Java version: 17 (configured via <maven.compiler.release>17</maven.compiler.rele
 
 Build tool: Apache Maven (Maven plugins for compilation, testing, packaging, and deployment are configured)
 
+
 Important dependencies included:
+--------------------------------
 
 Tribuo Core and Data Libraries:
 -------------------------------
