@@ -54,6 +54,8 @@ This trained Random Forest model was saved, loaded, and used to build a real-tim
 Logistic Regression trained with Stochastic Gradient Descent (SGD)
 ------------------------------------------------------------------
 
+https://github.com/vinayak181018/Personality-Detection-System-Using-Machine-Learning-Algorithms-LR-RF-and-XGBoost-in-Java-Tribuo-/blob/8d3866130980b46486bc7f6f101c7627ce17f840/PD_trained_model_images/LR_with_SGD_trained_output.png
+
 Random Forest (Ensemble Training)
 ---------------------------------
 
