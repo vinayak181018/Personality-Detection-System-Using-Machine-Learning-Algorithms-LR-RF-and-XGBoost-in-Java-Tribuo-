@@ -54,71 +54,13 @@ This trained Random Forest model was saved, loaded, and used to build a real-tim
 Logistic Regression trained with Stochastic Gradient Descent (SGD)
 ------------------------------------------------------------------
 
-Training samples: 2029
-Testing samples:  871
-Distinct classes: 2
-
-Evaluation Results:
-Class           n     tp    fn    fp   recall   prec     f1
-INTROVERT      433   397    36    32   0.917    0.925   0.921
-EXTROVERT      438   406    32    36   0.927    0.919   0.923
-Total          871   803    68    68
-Accuracy                               0.922
-Micro Average                          0.922    0.922   0.922
-Macro Average                          0.922    0.922   0.922
-Balanced Error Rate                    0.078
-
-Confusion Matrix:
-             INTROVERT  EXTROVERT
-INTROVERT          397         36
-EXTROVERT           32        406
-
-
 Random Forest (Ensemble Training)
 ---------------------------------
-
-Training samples: 2029
-Testing samples: 871
-Distinct classes: 2
-... [ensemble training logs] ...
-
-=== Evaluation Results ===
-Class           n     tp    fn    fp   recall   prec     f1
-INTROVERT      433   406    27    38   0.938    0.914   0.926
-EXTROVERT      438   400    38    27   0.913    0.937   0.925
-Total          871   806    65    65
-Accuracy                               0.925
-
-=== Confusion Matrix ===
-             INTROVERT  EXTROVERT
-INTROVERT          406         27
-EXTROVERT           38        400
 
 
 XGBoost (Hyperparameter Search)
 -------------------------------
 
->>> Training with rounds=200, maxDepth=3, eta=0.01
-Accuracy = 0.9047
-... [other parameter combinations] ...
-
-=== BEST MODEL ===
-Params: rounds=200, maxDepth=3, eta=0.01
-Accuracy: 0.9047
-Confusion Matrix:
-             INTROVERT  EXTROVERT
-INTROVERT          399         34
-EXTROVERT           49        389
-
-=== Feature Importances (Top 10) ===
-Class: ALL_OUTPUTS
-  Friends_circle_size@value -> 2570.0
-  Time_spent_Alone@value -> 2322.0
-  Post_frequency@value -> 1976.0
-  Social_event_attendance@value -> 1874.0
-  Going_outside@value -> 1514.0
-  Drained_after_socializing@No -> 46.0
-  Stage_fear@No -> 28.0
 
 🛠️ Build and Dependencies
 
