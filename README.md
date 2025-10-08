@@ -68,6 +68,10 @@ XGBoost (Hyperparameter Search)
 -------------------------------
 https://github.com/vinayak181018/Personality-Detection-System-Using-Machine-Learning-Algorithms-LR-RF-and-XGBoost-in-Java-Tribuo-/blob/5bb84f35bdfdc9bb107b6bd49a5e356c4e11be86/PD_trained_model_images/RF_trained_output.png
 
+Personality Prediction Console Output
+-------------------------------------
+
+
 🛠️ Build and Dependencies
 --------------------------
 
