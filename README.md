@@ -48,7 +48,6 @@ Gradient boosted trees optimized through hyperparameter tuning (rounds, max dept
 
 🚀 Results and Application
 ---------------------------
-
 The Random Forest model was selected as the best model with highest accuracy (~92.5%).
 
 This trained Random Forest model was saved, loaded, and used to build a real-time personality detection system that predicts personality from new input feature values.
@@ -58,23 +57,22 @@ This trained Random Forest model was saved, loaded, and used to build a real-tim
 
 Logistic Regression trained with Stochastic Gradient Descent (SGD)
 ------------------------------------------------------------------
-https://github.com/vinayak181018/Personality-Detection-System-Using-Machine-Learning-Algorithms-LR-RF-and-XGBoost-in-Java-Tribuo-/blob/8d3866130980b46486bc7f6f101c7627ce17f840/PD_trained_model_images/LR_with_SGD_trained_output.png
+Source: https://github.com/vinayak181018/Personality-Detection-System-Using-Machine-Learning-Algorithms-LR-RF-and-XGBoost-in-Java-Tribuo-/blob/8d3866130980b46486bc7f6f101c7627ce17f840/PD_trained_model_images/LR_with_SGD_trained_output.png
 
 Random Forest (Ensemble Training)
 ---------------------------------
-https://github.com/vinayak181018/Personality-Detection-System-Using-Machine-Learning-Algorithms-LR-RF-and-XGBoost-in-Java-Tribuo-/blob/a667df0f9f7da44fb85736916111a7d55d561a70/PD_trained_model_images/RF_trained_output.png
+Source: https://github.com/vinayak181018/Personality-Detection-System-Using-Machine-Learning-Algorithms-LR-RF-and-XGBoost-in-Java-Tribuo-/blob/a667df0f9f7da44fb85736916111a7d55d561a70/PD_trained_model_images/RF_trained_output.png
 
 XGBoost (Hyperparameter Search)
 -------------------------------
-https://github.com/vinayak181018/Personality-Detection-System-Using-Machine-Learning-Algorithms-LR-RF-and-XGBoost-in-Java-Tribuo-/blob/5bb84f35bdfdc9bb107b6bd49a5e356c4e11be86/PD_trained_model_images/RF_trained_output.png
+Source: https://github.com/vinayak181018/Personality-Detection-System-Using-Machine-Learning-Algorithms-LR-RF-and-XGBoost-in-Java-Tribuo-/blob/5bb84f35bdfdc9bb107b6bd49a5e356c4e11be86/PD_trained_model_images/RF_trained_output.png
 
 Personality Prediction Console Output
 -------------------------------------
-
+Source: https://github.com/vinayak181018/Personality-Detection-System-Using-Machine-Learning-Algorithms-LR-RF-and-XGBoost-in-Java-Tribuo-/blob/faf042ad1fb05087961584ff2cfe649d72906a45/PD_trained_model_images/Detection_System_Predicted_Output.png
 
 🛠️ Build and Dependencies
 --------------------------
-
 This project uses Maven as the build and dependency management tool.
 
 Java version: 17 (configured via <maven.compiler.release>17</maven.compiler.release>)
@@ -82,14 +80,15 @@ Java version: 17 (configured via <maven.compiler.release>17</maven.compiler.rele
 Build tool: Apache Maven (Maven plugins for compilation, testing, packaging, and deployment are configured)
 
 Important dependencies included:
-Tribuo Core and Data Libraries:
 
+Tribuo Core and Data Libraries:
+-------------------------------
 tribuo-core (4.3.2) — The foundation of the Tribuo ML framework
 
 tribuo-data (4.3.2) — For loading and processing CSV datasets
 
 Classification Implementations:
-
+-------------------------------
 tribuo-classification-core (4.3.2) — Core classification interfaces
 
 tribuo-classification-sgd (4.3.2) — Stochastic Gradient Descent trainer for Logistic Regression
@@ -103,13 +102,13 @@ tribuo-classification-experiments (4.3.2) — Additional classification algorith
 tribuo-common-tree (4.3.2) — Common tree utilities for ensembles
 
 Mathematics and JSON Support:
-
+-----------------------------
 tribuo-math (4.3.2) — Math utilities used internally by Tribuo
 
 tribuo-json (4.3.2) — Optional JSON serialization of models and metadata
 
 Testing Libraries:
-
+------------------
 JUnit Jupiter API and parameterized tests for unit testing support.
 
 Maven plugins configured for build lifecycle:
